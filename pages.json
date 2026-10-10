@@ -1,0 +1,43 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/contact/contact",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/job/list",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/job/joblist",
+			"style": {
+				"navigationBarTitleText": "岗位详情"
+			}
+		}
+	],
+	"tabBar": {
+		"color":"#8a8a8a",
+		"selectedColor": "#4b0082",
+		"list":[
+			{"pagePath": "pages/job/list","text":"岗位列表"},
+			{"pagePath": "pages/contact/contact","text":"推荐"}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
